@@ -1,0 +1,53 @@
+// header css
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    border-bottom: 1px solid $bar-color;
+    padding: 0 98px;
+
+    &-logo {
+        width: 120.25px;
+        height: 32px;
+    }
+
+    &-menu {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        height: 24px;
+        width: 471px;
+    }
+
+    &-menu-item {
+        a.header-active {
+            color: red
+        }
+    }
+
+    &-menu-link {
+        font-size: 21px;
+        font-weight: 700;
+        color: $white-color;
+        line-height: 24px;
+        font-family: 'Bebas Neue';
+    }
+
+    &-btn-started {
+        width: 168px;
+        height: 56px;
+        background-color: $red-color;
+        border: none;
+        color: $white-color;
+        font-size: 21px;
+        font-weight: 700;
+        font-family: "Bebas Neue";
+        cursor: pointer;
+        line-height: 24px;
+    }
+}
+
+.color-red {
+    color: $red-color;
+}
