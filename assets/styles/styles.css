@@ -10,7 +10,7 @@ a {
 }
 
 body {
-  background-image: url("/assets/images/background.svg");
+  background-image: url("./assets/images/background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Bebas Neue";
@@ -45,7 +45,7 @@ body {
   width: 471px;
 }
 .header-menu-item a.header-active {
-  color: red;
+  color: #FF0000;
 }
 .header-menu-link {
   font-size: 21px;
