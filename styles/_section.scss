@@ -105,6 +105,16 @@
         background-repeat: no-repeat;
         z-index: 10;
       }
+
+      &-text-right {    
+        top: 67px;
+        right: 98px;
+        width: 605px;
+        height: 431px;
+        z-index: 1;
+        position: absolute;
+      }
+
     &-transparent-text {
         font-size: 154px;
         color: transparent;
@@ -113,10 +123,10 @@
         font-weight: 900;
         -webkit-text-stroke: 2px $white-color;
         font-style: normal;
-        line-height: normal;
+        line-height: 231px;
         letter-spacing: 40.04px;
         text-transform: uppercase;
-        margin-right: -40.04px;
+        margin-right: -40.04px;   
     }
 }
 
