@@ -1,6 +1,7 @@
 //section css
 .section {
     display: flex;
+    
     &-slogan {
         margin-top: 120px;
         width: 598px;
@@ -12,6 +13,8 @@
         line-height: 136px;
         font-weight: 400;
         color: $white-color;
+        z-index: 100;
+        position: relative;
     }
 
     &-desc {
@@ -27,6 +30,8 @@
         font-weight: 300;
         line-height: 24px;
         font-family: 'Poppins';
+        z-index: 100;
+        position: relative;
     }
 
     &-button {
@@ -44,13 +49,17 @@
         border: 1px solid $red-color;
         line-height: 24px;
         cursor: pointer;
+        z-index: 100;
+        position: relative;
     }
 
     &-info {
         display: flex;
-        z-index: 1;
+
         margin-top: 82.5px;
         margin-bottom: 207.5px;
+        z-index: 100;
+        position: relative;
     }
 
     &-info-experience {
@@ -94,7 +103,7 @@
         background-image: url('../assets/images/image-gymer.svg');
         background-size: cover;
         background-repeat: no-repeat;
-    
+        z-index: 10;
       }
     &-transparent-text {
         font-size: 154px;
