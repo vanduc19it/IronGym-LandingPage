@@ -10,7 +10,7 @@
     &-heading {
         font-size: 122px;
         line-height: 136px;
-        font-weight: 700;
+        font-weight: 400;
         color: $white-color;
     }
 
@@ -18,7 +18,7 @@
         width: 660px;
         height: 48px;
         margin-top: 32px;
-        z-index: 100;
+        z-index: 10;
     }
 
     &-text {
@@ -38,7 +38,7 @@
         height: 72px;
         color: $red-color;
         font-size: 21px;
-        font-weight: 700;
+        font-weight: 400;
         background-color: transparent;
         font-family: "Bebas Neue";
         border: 1px solid $red-color;
@@ -53,17 +53,17 @@
         margin-bottom: 207.5px;
     }
 
-    &-info-1 {
+    &-info-experience {
         width: 154px;
         height: 80px;
     }
 
-    &-info-2 {
+    &-info-join-members {
         width: 111px;
         height: 80px;
     }
 
-    &-info-3 {
+    &-info-happy-members {
         width: 134px;
         height: 80px;
     }
@@ -80,7 +80,7 @@
     &-info-desc {
         text-align: center;
         color: $red-color;
-        font-weight: 700;
+        font-weight: 400;
         font-size: 50px;
         line-height: 56px;
     }
