@@ -1,9 +1,8 @@
-//section css
 .section {
     display: flex;
-    
+
     &-slogan {
-        margin-top: 120px;
+        margin-top: 119px;
         width: 598px;
         height: 238px;
     }
@@ -39,8 +38,7 @@
     }
 
     &-btn-join {
-        width: 173px;
-        height: 72px;
+        padding: 24px 40px;
         color: $red-color;
         font-size: 21px;
         font-weight: 400;
@@ -55,7 +53,6 @@
 
     &-info {
         display: flex;
-
         margin-top: 82.5px;
         margin-bottom: 207.5px;
         z-index: 100;
@@ -83,7 +80,6 @@
         line-height: 24px;
         font-weight: 300;
         font-family: 'Poppins';
-
     }
 
     &-info-desc {
@@ -104,16 +100,16 @@
         background-size: cover;
         background-repeat: no-repeat;
         z-index: 10;
-      }
+    }
 
-      &-text-right {    
+    &-text-right {
         top: 67px;
         right: 98px;
         width: 605px;
         height: 431px;
         z-index: 1;
         position: absolute;
-      }
+    }
 
     &-transparent-text {
         font-size: 154px;
@@ -126,8 +122,12 @@
         line-height: 231px;
         letter-spacing: 40.04px;
         text-transform: uppercase;
-        margin-right: -40.04px;   
+        margin-right: -40.04px;
     }
+}
+
+.color-red {
+    color: $red-color;
 }
 
 .vertical-bar {
