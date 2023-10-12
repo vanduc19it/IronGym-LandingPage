@@ -1,0 +1,138 @@
+.section {
+    display: flex;
+
+    &-slogan {
+        margin-top: 119px;
+        width: 598px;
+        height: 238px;
+    }
+
+    &-heading {
+        font-size: 122px;
+        line-height: 136px;
+        font-weight: 400;
+        color: $white-color;
+        z-index: 100;
+        position: relative;
+    }
+
+    &-desc {
+        width: 660px;
+        height: 48px;
+        margin-top: 32px;
+        z-index: 10;
+    }
+
+    &-text {
+        color: $gray-color;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        font-family: 'Poppins';
+        z-index: 100;
+        position: relative;
+    }
+
+    &-button {
+        margin-top: 56px;
+    }
+
+    &-btn-join {
+        padding: 24px 40px;
+        color: $red-color;
+        font-size: 21px;
+        font-weight: 400;
+        background-color: transparent;
+        font-family: "Bebas Neue";
+        border: 1px solid $red-color;
+        line-height: 24px;
+        cursor: pointer;
+        z-index: 100;
+        position: relative;
+    }
+
+    &-info {
+        display: flex;
+        margin-top: 82.5px;
+        margin-bottom: 207.5px;
+        z-index: 100;
+        position: relative;
+    }
+
+    &-info-experience {
+        width: 154px;
+        height: 80px;
+    }
+
+    &-info-join-members {
+        width: 111px;
+        height: 80px;
+    }
+
+    &-info-happy-members {
+        width: 134px;
+        height: 80px;
+    }
+
+    &-info-title {
+        color: $white-color;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+        font-family: 'Poppins';
+    }
+
+    &-info-desc {
+        text-align: center;
+        color: $red-color;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 56px;
+    }
+
+    &-image-gymer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1024px;
+        background-image: url('../assets/images/image-gymer.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 10;
+    }
+
+    &-text-right {
+        top: 67px;
+        right: 98px;
+        width: 605px;
+        height: 431px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    &-transparent-text {
+        font-size: 154px;
+        color: transparent;
+        font-family: 'Poppins';
+        text-align: right;
+        font-weight: 900;
+        -webkit-text-stroke: 2px $white-color;
+        font-style: normal;
+        line-height: 231px;
+        letter-spacing: 40.04px;
+        text-transform: uppercase;
+        margin-right: -40.04px;
+    }
+}
+
+.color-red {
+    color: $red-color;
+}
+
+.vertical-bar {
+    background-color: $bar-color;
+    height: 80px;
+    width: 1px;
+    margin: 0 40px;
+}
