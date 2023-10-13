@@ -13,7 +13,8 @@
         font-weight: 400;
         color: $white-color;
         z-index: 100;
-        position: relative;
+        position: relative; 
+        height: 238px;
     }
 
     &-desc {
@@ -54,7 +55,6 @@
     &-info {
         display: flex;
         margin-top: 82.5px;
-        margin-bottom: 207.5px;
         z-index: 100;
         position: relative;
     }
@@ -62,16 +62,19 @@
     &-info-experience {
         width: 154px;
         height: 80px;
+        margin-bottom: 207.5px;
     }
 
     &-info-join-members {
         width: 111px;
         height: 80px;
+        margin-bottom: 207.5px;
     }
 
     &-info-happy-members {
         width: 134px;
         height: 80px;
+        margin-bottom: 207.5px;
     }
 
     &-info-title {

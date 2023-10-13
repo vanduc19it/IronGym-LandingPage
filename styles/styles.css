@@ -96,6 +96,7 @@ body {
     color: #FFFFFF;
     z-index: 100;
     position: relative;
+    height: 238px;
 }
 
 .section-desc {
@@ -136,7 +137,6 @@ body {
 .section-info {
     display: flex;
     margin-top: 82.5px;
-    margin-bottom: 207.5px;
     z-index: 100;
     position: relative;
 }
@@ -144,16 +144,19 @@ body {
 .section-info-experience {
     width: 154px;
     height: 80px;
+    margin-bottom: 207.5px;
 }
 
 .section-info-join-members {
     width: 111px;
     height: 80px;
+    margin-bottom: 207.5px;
 }
 
 .section-info-happy-members {
     width: 134px;
     height: 80px;
+    margin-bottom: 207.5px;
 }
 
 .section-info-title {
